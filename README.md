@@ -23,20 +23,20 @@ if __name__ == "__main__":
 ### Basic methods: 
 #### Balance
 ```cmd
-    result = smspva.get_balance()
-    print(result)
+result = smspva.get_balance()
+print(result)
 ```
 
 #### Get number
 ```cmd
-    result = smspva.get_number(country="TZ", service="opt1")
-    print(result)
+result = smspva.get_number(country="TZ", service="opt1")
+print(result)
 ```
 
 #### Users info
 ```cmd
-    result = smspva.get_users_info()
-    print(result)
+result = smspva.get_users_info()
+print(result)
 ```
 
 #### Get all prices
