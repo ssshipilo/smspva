@@ -12,7 +12,7 @@ git clone https://github.com/ssshipilo/smspva.git
 ```
 
 ### Beginning of interaction 
-Get an API token to interact on the page https://smspva.com/user/{your username}/
+Get an API token to interact on the page https://smspva.com/user/{your_username}/
 
 ##### Code: 
 ```python
