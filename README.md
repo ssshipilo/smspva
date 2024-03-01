@@ -1,6 +1,8 @@
+![SMSPVA service](https://example.com/image.jpg)
+
 ## SMSPVA API (Activations)
 
-I needed this site for my project, so I give you a simple code to interact with SMSPVA service (https://smspva.com/).
+I needed this site for my project, so I give you a simple code to interact with [SMSPVA service](https://smspva.com/).
 
 Important! In this code, there is only interaction with the Activations API, no Rent API but in fact if you are an experienced developer you can use the server class method __requests__() to make requests to their site without writing your own API. By calling smspva.__requests__(endpoint, headers_array, method)
 
@@ -10,7 +12,7 @@ git clone https://github.com/ssshipilo/smspva.git
 ```
 
 ### Beginning of interaction 
-Get an API token to interact on the page (https://smspva.com/user/{your username}/)
+Get an API token to interact on the page https://smspva.com/user/{your username}/
 
 ##### Code: 
 ```cmd
