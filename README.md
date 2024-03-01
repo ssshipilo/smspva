@@ -7,7 +7,7 @@ I needed this site for my project, so I give you a simple code to interact with 
 Important! In this code, there is only interaction with the Activations API, no Rent API but in fact if you are an experienced developer you can use the server class method __requests__() to make requests to their site without writing your own API. By calling smspva.__requests__(endpoint, headers_array, method)
 
 ### Installation: 
-```cmd
+```python
 git clone https://github.com/ssshipilo/smspva.git
 ```
 
@@ -15,7 +15,7 @@ git clone https://github.com/ssshipilo/smspva.git
 Get an API token to interact on the page https://smspva.com/user/{your username}/
 
 ##### Code: 
-```cmd
+```python
 from smspva.api import SMSPVActivator
 
 if __name__ == "__main__":
@@ -24,55 +24,55 @@ if __name__ == "__main__":
 
 ### Basic methods: 
 #### Balance
-```cmd
+```python
 result = smspva.get_balance()
 print(result)
 ```
 
 #### Get number
-```cmd
+```python
 result = smspva.get_number(country="TZ", service="opt1")
 print(result)
 ```
 
 #### Users info
-```cmd
+```python
 result = smspva.get_users_info()
 print(result)
 ```
 
 #### Get all prices
-```cmd
+```python
 result = smspva.get_all_prices()
 print(result)
 ```
 
 #### Get service prices
-```cmd
+```python
 resut = smspva.get_prices_service("opt219", filter="lower")
 print(result)
 ```
 
 #### Get orders
-```cmd
+```python
 resut = smspva.get_orders()
 print(result)
 ```
 
 #### Get all countries
-```cmd
+```python
 resut = smspva.get_all_countries()
 print(result)
 ```
 
 #### Get all services
-```cmd
+```python
 resut = smspva.get_all_services()
 print(result)
 ```
 
 #### Get available numbers
-```cmd
+```python
 resut = smspva.get_available_numbers(country="SI")
 print(result)
 ```
