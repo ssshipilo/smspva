@@ -1,4 +1,4 @@
-![SMSPVA service](https://github.com/ssshipilo/smspva/blob/main/smspva/image.png?raw=true)
+![SMSPVA service](https://github.com/ssshipilo/smspva/blob/main/image.png?raw=true)
 
 ## SMSPVA API (Activations)
 
